@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.bank-app-full {
+  width: 100%;
+  color: #444;
+  background-color: #f3f3f3;
+  height: 120vh;
+  transition: all 0.3s;
+}
+.app {
+  opacity: 0;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem 0rem 3rem;
+  flex-wrap: wrap;
+}
+.header-logo-wrapper img {
+  width: 50px;
+}
+.header-input-wrapper input {
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 20px;
+  width: 100px;
+  padding: 0.5rem 0.1rem;
+  text-align: center;
+}
+.header-input-wrapper button {
+  margin-left: 8px;
+  border: none;
+  width: 40px;
+}
+.text-position h1 {
+  text-align: right;
+}
+.movement-value2 {
+  float: right;
+}
+.history-wrapper1 {
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  overflow: scroll;
+}
+.history-wrapper2 {
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid rgb(221, 215, 215);
+  width: 100%;
+  margin-top: 20px;
+}
+.movement-deposit {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  height: 30px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: auto;
+}
+.movement-withdraw {
+  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+  height: 30px;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: auto;
+}
+.movement-date {
+  margin-top: 13px;
+  margin-left: 10px;
+}
+.movement-value {
+  margin-top: 12px;
+}
+.service-wrapper1 {
+  width: 100%;
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+.service-wrapper2 {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.service-wrapper3 {
+  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.form-input input {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 120px;
+  margin: 10px 0px;
+  text-align: center;
+}
+.service-btn1 button {
+  margin-top: 8px;
+  border: none;
+  background-color: white;
+  padding: 2px 15px;
+  border-radius: 8px;
+}
+.trans-history {
+  word-spacing: 20px;
+  font-weight: 400;
+  font-size: 23px;
+}
+.logout-timer {
+  font-size: 23px;
+  font-weight: 400;
+}
+.footer1 {
+  margin-top: 40px;
+}
+.in {
+  font-weight: 600;
+  color: #39b385;
+  font-size: 30px;
+}
+.interest {
+  font-weight: 600;
+  color: #39b385;
+  font-size: 30px;
+}
+.out {
+  font-weight: 600;
+  color: #e52a5a;
+  font-size: 30px;
+}
+.footer1 button {
+  border: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .bank-app-full {
+    height: auto;
+    padding-bottom: 10rem;
+  }
+  .header-logo-wrapper img {
+    width: 50px;
+    margin: 0px auto;
+  }
+  .header-logo-wrapper {
+    margin: 15px auto;
+  }
+  .header-cont-wrapper h3 {
+    text-align: center;
+  }
+  .header-input-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-input-wrapper input {
+    margin-bottom: 15px;
+  }
+
+  .text-position1 {
+    text-align: center;
+  }
+  .p1 {
+    text-align: center;
+    text-align: center;
+  }
+  .text-position h1 {
+    text-align: center;
+  }
+  .movement-value2 {
+    text-align: center;
+  }
+
+  .history-wrapper2 {
+    height: auto;
+    border: none;
+    border-bottom: 1px solid rgb(134, 130, 130);
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .movement-date {
+    width: auto;
+  }
+  .movement-value {
+    width: auto;
+    margin: 10px auto;
+  }
+  .service-wrapper1,
+  .service-wrapper2,
+  .service-wrapper3 h4 {
+    text-align: center;
+  }
+}
